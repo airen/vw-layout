@@ -2,7 +2,7 @@
 
 > Mobile website layout with viewport units.
 
-vw-layout is a NPM package that helps you to create the mobile website layout with viewport units. It dependencies [postcss-aspect-ration-mini](https://github.com/yisibl/postcss-aspect-ratio-mini)、[postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) and [postcss-viewport-units](https://github.com/springuper/postcss-viewport-units).
+vw-layout is an NPM package that helps you to create the mobile website layout with viewport units. It dependencies on [postcss-aspect-ration-mini](https://github.com/yisibl/postcss-aspect-ratio-mini),[postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) and [postcss-viewport-units](https://github.com/springuper/postcss-viewport-units).
 
 In addition, to be compatible with more mobile devices, the viewport unit is required to use polyfill from the viewport unit. We can use the [Viewport Units Buggyfill](https://github.com/rodneyrehm/viewport-units-buggyfill).
 
@@ -12,7 +12,7 @@ In addition, to be compatible with more mobile devices, the viewport unit is req
 
 ## Usage
 
-If your project USES a webpack, you can add the associated PostCSS plug-in configuration to the `postcssrc.js` file.
+If your project uses a webpack, you can add the associated PostCSS plug-in configuration to the `postcssrc.js` file.
 
     module.exports = {
         "plugins": {
