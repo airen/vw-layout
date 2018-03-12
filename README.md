@@ -6,7 +6,7 @@ vw-layout is a NPM package that helps you to create the mobile website layout wi
 
 ## Install 
 
-    npm i vw-layout --save-dev
+    npm i vw-layout --save
 
 ## Usage
 
