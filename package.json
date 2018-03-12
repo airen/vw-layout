@@ -1,0 +1,30 @@
+{
+  "name": "vw-layout",
+  "version": "1.0.0",
+  "description": "Mobile website layout with viewport units",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airen/vw-layout.git"
+  },
+  "keywords": [
+    "vw",
+    "layout",
+    "mobile",
+    "viewport"
+  ],
+  "author": "airen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airen/vw-layout/issues"
+  },
+  "homepage": "https://github.com/airen/vw-layout#readme",
+  "dependencies": {
+    "postcss-aspect-ratio-mini": "0.0.2",
+    "postcss-px-to-viewport": "0.0.3",
+    "postcss-viewport-units": "^0.1.3"
+  }
+}
