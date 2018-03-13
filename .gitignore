@@ -12,3 +12,10 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+*.log*
+.*
+!.appveyor.yml
+!.editorconfig
+!.gitignore
+!.travis.yml

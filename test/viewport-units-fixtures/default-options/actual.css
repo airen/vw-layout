@@ -1,0 +1,7 @@
+.hero {
+  width: 50vw;
+  height: 50vh;
+  margin-top: calc((360/1080) * 100vh);
+  padding: 1rem;
+  color: green;
+}
