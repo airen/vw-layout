@@ -2,7 +2,7 @@ const postcss = require('postcss');
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
-const plugin = require('../');
+const plugin = require('postcss-viewport-units');
 
 function compare(filename, warnings, options) {
   const actual = fs.readFileSync(

@@ -2,7 +2,7 @@ var fs = require('fs')
 var test = require('tape')
 var tapDiff = require('tap-diff')
 var postcss = require('postcss')
-var plugin = require('..')
+var plugin = require('postcss-aspect-ratio-mini')
 
 if(!module.parent) {
   test.createStream()

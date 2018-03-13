@@ -2,14 +2,14 @@
 
 var fs = require('fs');
 var postcss = require('postcss');
-var pxToViewport = require('..');
-var css = fs.readFileSync('px-to-viewport-main.css', 'utf8');
+var pxToViewport = require('postcss-px-to-viewport');
+var css = fs.readFileSync('test/px-to-viewport-main.css', 'utf8');
 var options = {
     replace: false
 };
 var processedCss = postcss(pxToViewport(options)).process(css).css;
 
-fs.writeFile('px-to-viewport-test.css', processedCss, function (err) {
+fs.writeFile('test/px-to-viewport-test.css', processedCss, function (err) {
   if (err) {
     throw err;
   }
