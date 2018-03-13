@@ -1,6 +1,6 @@
 {
   "name": "vw-layout",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mobile website layout with viewport units",
   "main": "index.js",
   "scripts": {
