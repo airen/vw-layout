@@ -1,5 +1,8 @@
 # vw-layout
 
+[![Travis Build Status](https://travis-ci.org/airen/vw-layout.svg)](https://travis-ci.org/airen/vw-layout)
+[![Build status](https://ci.appveyor.com/api/projects/status/hso3amuryb169jwi/branch/master?svg=true)](https://ci.appveyor.com/project/airen/vw-layout/branch/master)
+
 > Mobile website layout with viewport units.
 
 vw-layout is an NPM package that helps you to create the mobile website layout with viewport units. It dependencies on [postcss-aspect-ration-mini](https://github.com/yisibl/postcss-aspect-ratio-mini),[postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport) and [postcss-viewport-units](https://github.com/springuper/postcss-viewport-units).
