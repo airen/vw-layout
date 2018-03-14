@@ -15,6 +15,10 @@ In addition, to be compatible with more mobile devices, the viewport unit is req
 
 ## Usage
 
+Add the following code to the entry file. eg. Vue project, in the `main.js` file:
+
+    import 'vw-layout'
+
 If your project uses a webpack, you can add the associated PostCSS plug-in configuration to the `postcssrc.js` file.
 
     module.exports = {
